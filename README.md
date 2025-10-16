@@ -1,31 +1,37 @@
-# Deployment Success Confirmation App
+# Deployment Confirmation & Theme Toggler
 
-A simple, single-page web application built with HTML, Tailwind CSS, and JavaScript. This app demonstrates a basic interaction where a button click updates a main title on the page.
+This project features a simple web page designed to confirm successful application deployment and provides a user-friendly interface to toggle between light and dark themes.
 
 ## Features
 
-*   **Responsive Design:** Optimized for various screen sizes using Tailwind CSS.
-*   **Dynamic Title Update:** Changes the main title text upon button interaction.
-*   **Modern Styling:** Utilizes Tailwind CSS for a clean and professional look.
-
-## How to Run
-
-1.  **Save the file:** Save the provided `index.html` content into a file named `index.html` on your local machine.
-2.  **Open in Browser:** Open the `index.html` file using any modern web browser (e.g., Chrome, Firefox, Safari, Edge).
-3.  **Interact:** Click the "Click Me" button to see the main title change.
-
-## Project Structure
-
-This project consists of a single HTML file:
-
-*   `index.html`: Contains all the HTML structure, Tailwind CSS (via CDN), and JavaScript logic.
+*   **Deployment Confirmation:** A clear message indicating successful application deployment.
+*   **Theme Toggling:** Seamlessly switch the entire page's background and text colors between a light theme (white background, black text) and a dark theme (black background, white text).
+*   **Responsive Design:** Built with Tailwind CSS, ensuring the layout adapts gracefully across various screen sizes.
+*   **Persistent Theme:** Your chosen theme preference is saved in local storage and persists across page reloads.
 
 ## Technologies Used
 
-*   **HTML5:** For the basic structure of the web page.
-*   **Tailwind CSS:** A utility-first CSS framework for rapid UI development and responsive design.
-*   **JavaScript:** For implementing the interactive logic.
+*   **HTML5:** For the basic page structure.
+*   **Tailwind CSS:** For all styling and responsive design.
+*   **JavaScript:** For theme toggling logic and local storage management.
+
+## Getting Started
+
+To view this project, simply open the `index.html` file in your web browser. No special setup or server is required.
+
+### How to Use
+
+1.  Open `index.html` in your browser.
+2.  The page will display a "Deployment Success Confirmation" message.
+3.  Click the "Toggle Theme" button to switch between light and dark modes.
+4.  Your theme preference will be remembered for future visits.
+
+## Project Structure
+
+*   `index.html`: The main web page, containing all HTML, Tailwind CSS setup, and JavaScript logic.
+*   `README.md`: This file, providing project information.
+*   `LICENSE`: The MIT License for this project.
 
 ## License
 
-This project is open-source and available under the MIT License. See the `LICENSE` file for more details.
+This project is open-sourced under the MIT License. See the `LICENSE` file for more details.
